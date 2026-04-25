@@ -179,7 +179,6 @@ class UI:
         x = Cinema()
         x.set_dia(input("Informe o dia da semana: "))
         x.set_hora(int(input("Informe a hora: ")))
-
         if x.get_dia() == "quarta":
             print(f"No dia da semana, {x.get_dia()}, todo mundo paga meia, no valor de R${x.meia_entrada():.2f}, marcado às {x.get_hora()} hora")
         else:
